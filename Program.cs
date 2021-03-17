@@ -80,12 +80,12 @@ namespace ListasyNumeros
             NewListNum.Add(40);
             NewListNum.Add(15);
             
-            int mayor = NewListNum[0];
+            int numeroMayor = NewListNum[0];
             for (int i = 0; i < NewListNum.Count; i++)
             {
-                if (NewListNum[i] > mayor)
+                if (NewListNum[i] > numeroMayor)
                 {
-                    mayor = NewListNum[i];
+                    numeroMayor = NewListNum[i];
                 }
             }
             
@@ -94,7 +94,7 @@ namespace ListasyNumeros
                 Console.WriteLine(NewListNum[i]);
             }
 
-            Console.WriteLine("El número mayor de la lista es " + mayor);
+            Console.WriteLine("El número mayor de la lista es " + numeroMayor);
         
         }
         
